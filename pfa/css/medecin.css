@@ -1,0 +1,57 @@
+/* Appliquer un style au tableau */
+.table-fill {
+    width: 100%;
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: auto;
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 20px 0;
+  }
+  
+  /* Appliquer un style aux en-têtes de colonne */
+  .table-fill thead th {
+    color: #ffffff;
+    background: #d83f3f;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: left;
+  }
+  
+  /* Appliquer un style aux cellules du tableau */
+  .table-fill tbody td {
+    color: #808080;
+    font-size: 13px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Appliquer un style à chaque deuxième ligne du tableau */
+  .table-fill tbody tr:nth-of-type(2n) {
+    background: #f3f3f3;
+  }
+  
+  /* Appliquer un style aux cellules de gauche */
+  .table-fill tbody td.text-left {
+    padding-left: 20px;
+  }
+  
+  /* Appliquer un style aux cellules de droite */
+  .table-fill tbody td.text-right {
+    padding-right: 20px;
+  }
+  
+  /* Appliquer un style aux cellules du tableau au survol */
+  .table-fill tbody tr:hover td {
+    background: #e8e8e8;
+  }
+  
+  /* Appliquer un style aux cellules de l'en-tête au survol */
+  .table-fill thead tr:hover th {
+    background: #d83f3f;
+  }
+  

@@ -1,0 +1,35 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left-photo {
+    margin-right: 10px;
+  }
+  
+  .right-photo {
+    margin-left: 10px;
+  }
+  
+  .button-wrapper {
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #84a1f2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .button i {
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,27 @@
+body {
+  background-image: url("doc5.jpg"), url("doc6.jpg");
+  background-position: left, right;
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #FFFFFF;
+}
+
+.hero_section .btn-container .btn {
+  background-color: rgb(182, 88, 187);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hero_section .btn-container .btn a {
+  text-decoration: none;
+}
+
+.hero_section .btn-container .btn span {
+  font-weight: bold;
+}
